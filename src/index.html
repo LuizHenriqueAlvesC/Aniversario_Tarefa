@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="styles/main.scss">
 </head>
 <body>
@@ -12,7 +16,7 @@
         <div class="container">
             <img src="./images/logo.png" alt="" class="hero__logo">
             <p class="hero__text">
-                Contagem regressiva para o meu aniversário
+                Contagem regressiva para o meu aniversário <span id="contador"></span>
             </p>
 
             <div class="infos-bar">
@@ -37,6 +41,72 @@
             </div>
         </div>
     </header>
+
+    <section class="event event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Pixzinho de aniversário
+                </h2>
+                <p class="event__details__description">
+                    Qualquer valor acima de 5 dígitos ou pode me enviar uma imagem abaixo me parabenizando (com um pixzinho também), só clicar no botão para mandar.
+                </p>
+            </div>
+            <img src="./images/parabens_3.png" alt="cade meu pix" class="event__image">
+        </div>
+    </section>
+
+    <section class="event event--image_2">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Foto do laranjo
+                </h2>
+                <p class="event__details__description">
+                    Com essa foto você expressa o tamanho da sua felicidade por sermos grandes amigos, parceiros, colegas de trabalho.
+                </p>
+                <a href="#" class="button button--primary">
+                        R$ 1.000,00
+                    </a>
+            </div>
+            <img src="./images/parabens_1.png" alt="cade meu pix" class="event__image">
+        </div>
+    </section>
+
+    <section class="event event--image_3 event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Ven Diesel Pensador
+                </h2>
+                <p class="event__details__description">
+                    Com essa foto você expressa o tamanho da sua saudade por não estar presente no dia do meu aniversário, mas que isso não vai tirar o fato de sermos grandes amigos, parceiros, colegas de trabalho.
+                </p>
+                <a href="#" class="button button--primary">
+                        R$ 500,00
+                    </a>
+            </div>
+            <img src="./images/parabens_4.png" alt="cade meu pix" class="event__image">
+        </div>
+    </section>
+
+    <section class="event event--image_4">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Outra foto do laranjo
+                </h2>
+                <p class="event__details__description">
+                    Com essa foto você expressa somente um feliz aniversário (simples mas o importante é se expressar).
+                </p>
+                <a href="#" class="button button--primary">
+                        R$ 100,00
+                    </a>
+            </div>
+            <img src="./images/parabens_2.png" alt="cade meu pix" class="event__image">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

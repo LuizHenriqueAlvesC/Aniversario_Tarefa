@@ -2,10 +2,12 @@
 @use 'variables';
 @use 'componentes/infosbar';
 @use 'componentes/buttons';
+@use 'events';
 
 * {
     padding: 0;
     margin: 0;
+    font-family: Roboto, sans-serif;
     box-sizing: border-box;
     list-style: none;
     color: variables.$textColor;
